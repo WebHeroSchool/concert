@@ -1,0 +1,87 @@
+.header{
+  width: 900px;
+  height: 400px;
+  background-color: #25B33f;
+  margin-bottom: 10px;
+  background-image: url(https://pyxis.nymag.com/v1/imgs/623/b66/7d355e01c206b6a803663f60f5701409ba-19-harry-styles.rsocial.w1200.jpg);
+}
+.header__title {
+    text-shadow: red 0 0 15px; 
+    color:yellow;
+    margin-left: 20px;
+    font-size:40px;
+}  
+   .header__title_blink{ 
+animation: blink 2s infinite; 
+text-shadow: red 0 0 15px; 
+   
+   }
+   @keyframes blink {
+    from { opacity: 1; /* Непрозрачный текст */ }
+    to { opacity: 0; /* Прозрачный текст */ }
+   }
+.list{
+   text-align="left";
+   color:white;
+   border: 4px double white;
+   width:300px;
+   font-size:20px;
+}
+.list__item{
+  font-size:19px;
+  }
+.list__link{
+  color:NavajoWhite;
+}
+.header__btn{
+  margin-left:10px;
+}
+.header__btn_decoration{
+  font-size:20px;
+}
+.body{
+  background: Goldenrod;
+  width:900px;
+}
+.body__text{
+  color:black;
+  font-size:13px;
+}
+.price-list{
+   color:black;
+   border: 4px groove white;
+   width:300px;
+}
+.price-list__item{
+  color:black;
+  font-size:14px;
+}
+.body__subtitle{
+  text-decoration:underline;
+}
+.body__caption{
+ color:black;
+ text-decoration:underline;
+}
+.body__btn{
+  margin-left:10px;
+  font-size:20px;
+  color:red;
+}
+.footer{
+  background: Goldenrod;
+  width:900px;
+  color:black;
+  font-size:13px;
+}
+.footer__addition{
+  font-weight:bold;
+  font-size:15px;
+}
+.footer__address{
+  font-size:14px;
+}
+.footer__btn{
+  font-size:15px;
+  color:blue;
+}
